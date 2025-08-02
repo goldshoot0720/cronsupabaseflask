@@ -18,11 +18,12 @@ tables = [
     "video"
 ]
 
-# Supabase Storage 圖片與 PDF URL
+# Supabase Storage 圖片、PDF、影片 URL
 supabase_files = [
     "https://lgztvgybalhvppkfpwdc.supabase.co/storage/v1/object/public/goldshoot0720/image/Screenshot%202025-07-06%20at%2016-40-13%20(Ministry%20of%20Examination%20R.O.C(Taiwan))FfD1M5Casnv7P5ErRDKIpHsACuhdB7.png",
     "https://lgztvgybalhvppkfpwdc.supabase.co/storage/v1/object/public/goldshoot0720/image/Screenshot%202025-07-06%20at%2019-30-50%20(Ministry%20of%20Examination%20R.O.C(Taiwan))t8oXnotAXWP5KGsPOB2CJLRbda885f.png",
-    "https://lgztvgybalhvppkfpwdc.supabase.co/storage/v1/object/public/goldshoot0720/pdf/114080_02_202_2085_27720090%2011408049116215016157_ExamNotice.pdf"
+    "https://lgztvgybalhvppkfpwdc.supabase.co/storage/v1/object/public/goldshoot0720/pdf/114080_02_202_2085_27720090%2011408049116215016157_ExamNotice.pdf",
+    "https://lgztvgybalhvppkfpwdc.supabase.co/storage/v1/object/public/goldshoot0720/video/di-8jie-tai-bei-shi-chang-xuan-ju-hui-gu.mp4"
 ]
 
 def fetch_and_print(url):
