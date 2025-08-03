@@ -42,17 +42,17 @@ def fetch_and_print(url):
 def main():
     # 抓首頁
     fetch_and_print(base_url)
-    time.sleep(60)
+    time.sleep(30)
 
     # 抓每個資料表
     for table in tables:
         fetch_and_print(f"{base_url}/{table}")
-        time.sleep(60)
+        time.sleep(30)
 
     # 抓 Supabase 儲存檔案（不儲存本地，只查看狀態）
     for url in supabase_files:
         fetch_and_print(url)
-        time.sleep(60)
+        time.sleep(30)
 
     print("\n🎉 全部抓取完成！")
 
